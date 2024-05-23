@@ -1,0 +1,94 @@
+.containerAbba {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(#121212, #212b46);
+}
+
+.title {
+  color: #fff;
+  font-size: 70px;
+}
+
+.containerbusc {
+  background: #4c4c4c95;
+  height: 35px;
+  margin: 34px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
+  display: flex;
+}
+
+.containerbusc input {
+  background: transparent;
+  border: 0;
+  color: azure;
+  font-size: 20px;
+  border-radius: 12px;
+  outline: none;
+  margin-right: 8px;
+}
+
+.containerbusc input::placeholder {
+  color: azure;
+}
+
+.containerbusc button {
+  background: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+main {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  border-radius: 8px;
+}
+
+main h2 {
+  margin: 16px 0;
+  font-size: 39px;
+}
+
+main span {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.delete button{
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: .8s;
+}
+
+.delete button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media (max-width: 620px) {
+  .title {
+    font-size: 60px;
+  }
+  main h2 {
+    font-size: 28px;
+  }
+  main {
+    min-width: 80%;
+    min-height: 250px;
+  }
+}
