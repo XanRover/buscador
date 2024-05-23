@@ -15,3 +15,6 @@ Este repositório contém o código de um projeto web desenvolvido em React.js, 
 
 - Buscar CEP: O usuário pode inserir um CEP e clicar no botão de busca para obter informações detalhadas sobre o endereço.
 - Excluir Dados: O usuário pode limpar os dados exibidos clicando no botão de exclusão.
+
+
+Para acessar o site, clica no link a seguir "https://busc-cep.netlify.app"
